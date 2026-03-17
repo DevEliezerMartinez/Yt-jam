@@ -1,0 +1,5 @@
+/server/venv
+/server/.env
+/server/credentials.json
+/server/token.json
+/extension.zip

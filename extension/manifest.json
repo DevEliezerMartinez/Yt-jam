@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YT Jam — Agregar a cola",
+  "version": "1.0",
+  "description": "Agrega el video de YouTube que estás viendo a la playlist de la oficina.",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": [
+    "https://*.youtube.com/*",
+    "https://jam.demail.store/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
