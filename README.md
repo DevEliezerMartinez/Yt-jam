@@ -109,7 +109,7 @@ YT_PLAYLIST_ID=PLxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # Clave secreta que la extensión manda en cada request
 # Ponla también en extension/popup.js → SECRET_KEY
-SECRET_KEY=oficina-2025-secreto
+SECRET_KEY=contraseña_aqui
 ```
 
 ---
@@ -178,9 +178,6 @@ cloudflared tunnel route dns yt-jam jam.tudominio.com
 cloudflared tunnel run yt-jam
 ```
 
-> **Tunnel actual:** `2b9c5973-41a2-43ef-851f-cdebf4d677e1`  
-> **URL pública:** `https://jam.demail.store`
-
 ---
 
 ## Paso 7 — Configurar la extensión
@@ -189,7 +186,7 @@ La extensión ya apunta al servidor en producción. Si cambias la URL o el secre
 
 ```js
 const SERVER_URL = "https://jam.demail.store"; // ← URL del Cloudflare Tunnel
-const SECRET_KEY = "oficina-2025-mktsecreto"; // ← Debe coincidir con el .env
+const SECRET_KEY = "contraseña_aqui"; // ← Debe coincidir con el .env
 ```
 
 La extensión soporta:

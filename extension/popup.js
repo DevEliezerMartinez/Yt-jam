@@ -3,7 +3,7 @@
 const SERVER_URL = "https://jam.demail.store";
 
 // Debe coincidir con SECRET_KEY en el .env del servidor
-const SECRET_KEY = "oficina-2025-mktsecreto";
+const SECRET_KEY = "oficina-2026-secretomkt";
 // ── Helpers ───────────────────────────────────────────────────────────────
 function getVideoId(url) {
   try {
